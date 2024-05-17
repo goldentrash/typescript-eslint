@@ -3764,28 +3764,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@microsoft/api-extractor-model@npm:7.28.13":
-  version: 7.28.13
-  resolution: "@microsoft/api-extractor-model@npm:7.28.13"
+"@microsoft/api-extractor-model@npm:7.28.17":
+  version: 7.28.17
+  resolution: "@microsoft/api-extractor-model@npm:7.28.17"
   dependencies:
     "@microsoft/tsdoc": 0.14.2
     "@microsoft/tsdoc-config": ~0.16.1
-    "@rushstack/node-core-library": 4.0.2
-  checksum: 0ac8236c670da4fe831a2b2fee94b4c9e4b881ba04e3c7807774db3f47e87c8d62dd5a5fd9b9a3f8bd56aa9ce2d75307338558c83063a912f230824e08f15e89
+    "@rushstack/node-core-library": 4.3.0
+  checksum: 24b2ca16e54d5aa7b30ddddd9ce6b7d5bad87f324a6026111d160b5c7433318b72a68b398b990a18a18438030b86136f00356eebcca2b84fbaa89ee35d138d62
   languageName: node
   linkType: hard
 
 "@microsoft/api-extractor@npm:^7.43.0":
-  version: 7.43.0
-  resolution: "@microsoft/api-extractor@npm:7.43.0"
+  version: 7.43.7
+  resolution: "@microsoft/api-extractor@npm:7.43.7"
   dependencies:
-    "@microsoft/api-extractor-model": 7.28.13
+    "@microsoft/api-extractor-model": 7.28.17
     "@microsoft/tsdoc": 0.14.2
     "@microsoft/tsdoc-config": ~0.16.1
-    "@rushstack/node-core-library": 4.0.2
+    "@rushstack/node-core-library": 4.3.0
     "@rushstack/rig-package": 0.5.2
-    "@rushstack/terminal": 0.10.0
-    "@rushstack/ts-command-line": 4.19.1
+    "@rushstack/terminal": 0.11.0
+    "@rushstack/ts-command-line": 4.21.0
     lodash: ~4.17.15
     minimatch: ~3.0.3
     resolve: ~1.22.1
@@ -3794,7 +3794,7 @@ __metadata:
     typescript: 5.4.2
   bin:
     api-extractor: bin/api-extractor
-  checksum: 7015bbd529782209f0d8e5728ae7699707ea60a696a60b2bc688ec88fec62430e82ac77629e59fc40d3b287ea0135a1050509c7436de648bb656e882c97fae3c
+  checksum: 2169dfce6174bb1f5d33dd1b2dfda3625228d0d098af682bc076d7436adad9f579f93d90103e80bcb93ddd231ab677a98ff116653228861624933e22a7202527
   languageName: node
   linkType: hard
 
@@ -4375,9 +4375,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rushstack/node-core-library@npm:4.0.2":
-  version: 4.0.2
-  resolution: "@rushstack/node-core-library@npm:4.0.2"
+"@rushstack/node-core-library@npm:4.3.0":
+  version: 4.3.0
+  resolution: "@rushstack/node-core-library@npm:4.3.0"
   dependencies:
     fs-extra: ~7.0.1
     import-lazy: ~4.0.0
@@ -4390,7 +4390,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: 318cbe9c17514dd18948d63fc170eeea5167d877734385e2351ba844ebb96f3b1cfced8d73ed2a0fdb89eb7013367be6e1f9409ae0ede71fe6e35cfdb6bf8e5b
+  checksum: a2294ce5128995c732838c0c59f98d98c5768c345a71e4c39b7332957059856aac17ff0011f3a13211ac36a377937d83c5332797e83e38d4e9d5d09ff73d7060
   languageName: node
   linkType: hard
 
@@ -4404,30 +4404,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rushstack/terminal@npm:0.10.0":
-  version: 0.10.0
-  resolution: "@rushstack/terminal@npm:0.10.0"
+"@rushstack/terminal@npm:0.11.0":
+  version: 0.11.0
+  resolution: "@rushstack/terminal@npm:0.11.0"
   dependencies:
-    "@rushstack/node-core-library": 4.0.2
+    "@rushstack/node-core-library": 4.3.0
     supports-color: ~8.1.1
   peerDependencies:
     "@types/node": "*"
   peerDependenciesMeta:
     "@types/node":
       optional: true
-  checksum: 1a62b2bd26f501608ae0c482b4597c4266752501e6ca61ffa7a00344b396382dbb5a8a6766dd93af9b5aecfbcf861c065f00b3c70461b48ec168feefc9515d9f
+  checksum: 9c41b3d036f3e92b2e9b20c4bf2dd4ccd65599c5b1f19aca387abd68bca670df5562cc7249849e285961e2354600823af4f2457d2b176696747ae240065c06c4
   languageName: node
   linkType: hard
 
-"@rushstack/ts-command-line@npm:4.19.1":
-  version: 4.19.1
-  resolution: "@rushstack/ts-command-line@npm:4.19.1"
+"@rushstack/ts-command-line@npm:4.21.0":
+  version: 4.21.0
+  resolution: "@rushstack/ts-command-line@npm:4.21.0"
   dependencies:
-    "@rushstack/terminal": 0.10.0
+    "@rushstack/terminal": 0.11.0
     "@types/argparse": 1.0.38
     argparse: ~1.0.9
     string-argv: ~0.3.1
-  checksum: db9ee56563e6c628fe7203153213a7db92a9aeed509f36a0c87882d9ccc46bdd6474ef870b1fc1d68f7980676b30e327bd1b6ef5e529847bbe60f5de49e81b2a
+  checksum: 1525e3ea24c16d064dd91bf9a57cfcebadf60620198ea28ef67bfa83d073eb101e6cbf2f237f411b2e2e2da0530ecfbea847d0483475e6cd484fbdfe65a32694
   languageName: node
   linkType: hard
 
